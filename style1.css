@@ -1,0 +1,99 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 100px;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+header ul li :hover {
+  color: #00b39b;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.active {
+  color: #00b39b;
+}
+.drop-menu .drop:hover {
+  display: block;
+}
+.drop-menu {
+  position: absolute;
+  padding: 12px;
+  color: grey;
+  box-shadow: 0px 5px 10px 0px #d3cfd9;
+  display: none;
+}
+.drop-menu p {
+  padding: 5px 12px;
+}
+.drop-menu p :hover {
+  color: #00b39b;
+  background-color: #d3cfd9;
+}
+section .landing {
+  text-align: center;
+  margin-top: 50px;
+}
+section .landing h1 {
+  font-weight: 100;
+}
+section .paragragh {
+  display: flex;
+  gap: 20px;
+  font-size: smaller;
+  color: grey;
+  line-height: 22px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  background-color: #00ccb1;
+  padding: 20px;
+  border-radius: 9px;
+  color: white;
+}
+.card h3 {
+  font-weight: 400;
+}
+.card p {
+  font-weight: 100;
+  font-size: 20px;
+}
+.card select {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 10px;
+  text-decoration: underline;
+  margin-top: 8px;
+}
+select option {
+  color: black;
+}
+.green {
+  background-color: #00ccb1;
+}
+.blue {
+  background-color: darkblue;
+}
+.black {
+  background-color: #1b2734;
+}
